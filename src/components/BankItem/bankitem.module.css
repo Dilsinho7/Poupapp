@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container p {
+    margin: 0;
+}
+
+.bancoItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 120%;
+}
+.bancoItem p {
+    font-size: 15px;
+    color: var(--neutral-text);
+}
+
+.saldo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 15px;
+    line-height: 120%;
+    font-weight: 500;
+    color: var(--neutral-text);
+}

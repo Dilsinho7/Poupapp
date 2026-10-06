@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    background-color: var(--neutral-surface);
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.container input {
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+}
+.container input::placeholder {
+    color: var(--neutral-text);
+}
